@@ -27,8 +27,8 @@
 	     <configuration>
 	         <skip>true</skip>
 	      </configuration>
-	    <execution>
-	   <executions>
+	    </execution>
+	   </executions>
 	   </plugin>
 	      </plugins>
 	
@@ -36,17 +36,17 @@
 </build>
 <repositories>
 <repository>
-<id>group</id>
+<id>techmgroup</id>
 <url>http://192.168.0.6:8081/nexus/content/groups/techmgroup/</url>
 </repository>
 </repositories>
 <distributionManagement>
 <snapshotRepository>
-<id>snap</id>
+<id>techmsnap</id>
 <url>http://192.168.0.6:8081/nexus/content/repositories/techmsnap/</url>
 </snapshotRepository>
 <repository>
-<id>rel</id>
+<id>techmrel</id>
 <url>http://192.168.0.6:8081/nexus/content/repositories/techmrel/</url>
 </repository>
 </distributionManagement>
